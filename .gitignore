@@ -34,8 +34,9 @@ yarn-error.*
 .env
 .env*.local
 
-# Claude Code
-.claude/
+# Claude Code — track shared config (skills, CLAUDE.md), ignore local-only
+.claude/settings.local.json
+.claude/.session*
 
 # JetBrains IDEs
 .idea/
