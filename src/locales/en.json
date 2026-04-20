@@ -1,0 +1,38 @@
+{
+  "common": {
+    "retry": "Retry",
+    "cancel": "Cancel",
+    "ok": "OK",
+    "loading": "Loading…",
+    "save": "Save"
+  },
+  "navigation": {
+    "home": "Home",
+    "settings": "Settings"
+  },
+  "auth": {
+    "welcome": "Welcome",
+    "tagline": "Sign in to continue",
+    "signInWithApple": "Sign in with Apple",
+    "signInWithGoogle": "Continue with Google",
+    "signOut": "Sign out",
+    "errorTitle": "Sign-in failed",
+    "errorMessage": "Could not sign you in. Please try again."
+  },
+  "home": {
+    "title": "Home",
+    "subtitle": "Replace this screen with your app's main content."
+  },
+  "settings": {
+    "title": "Settings",
+    "appearance": "Appearance",
+    "themeDark": "Dark",
+    "themeLight": "Light",
+    "language": "Language",
+    "account": "Account"
+  },
+  "errorBoundary": {
+    "title": "Something went wrong",
+    "description": "An unexpected error occurred. Please try again."
+  }
+}

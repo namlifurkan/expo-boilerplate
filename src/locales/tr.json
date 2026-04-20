@@ -1,0 +1,38 @@
+{
+  "common": {
+    "retry": "Tekrar dene",
+    "cancel": "İptal",
+    "ok": "Tamam",
+    "loading": "Yükleniyor…",
+    "save": "Kaydet"
+  },
+  "navigation": {
+    "home": "Ana Sayfa",
+    "settings": "Ayarlar"
+  },
+  "auth": {
+    "welcome": "Hoş geldin",
+    "tagline": "Devam etmek için giriş yap",
+    "signInWithApple": "Apple ile giriş yap",
+    "signInWithGoogle": "Google ile devam et",
+    "signOut": "Çıkış yap",
+    "errorTitle": "Giriş başarısız",
+    "errorMessage": "Giriş yapılamadı. Lütfen tekrar dene."
+  },
+  "home": {
+    "title": "Ana Sayfa",
+    "subtitle": "Bu ekranı uygulamanın ana içeriğiyle değiştir."
+  },
+  "settings": {
+    "title": "Ayarlar",
+    "appearance": "Görünüm",
+    "themeDark": "Koyu",
+    "themeLight": "Açık",
+    "language": "Dil",
+    "account": "Hesap"
+  },
+  "errorBoundary": {
+    "title": "Bir şeyler ters gitti",
+    "description": "Beklenmedik bir hata oluştu. Lütfen tekrar dene."
+  }
+}
