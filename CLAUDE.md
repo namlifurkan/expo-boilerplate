@@ -112,12 +112,13 @@ Boilerplate'te şu an currency util yok. Eklendiğinde tüm fiyat gösterimi sha
 
 ## Project-local skills
 
-Bu projede `.claude/skills/` altında dört özel skill var. İlgili task'ta otomatik tetikle:
+Bu projede `.claude/skills/` altında beş özel skill var. İlgili task'ta otomatik tetikle:
 
 - **`setup-new-project`** — Boilerplate'ten yeni proje açıldığında: identity rename, EAS init, Supabase wiring
 - **`add-i18n-key`** — Yeni çeviri key'i eklerken: HER İKİ locale'e eş zamanlı ekleme
 - **`new-screen`** — Yeni ekran/route oluştururken: Screen wrapper + i18n + token convention'lı template
 - **`supabase-gen-types`** — Schema değişince `src/types/database.ts` regen
+- **`remove-supabase`** — Kullanıcı Supabase yerine AWS/Firebase/Clerk/custom backend seçerse: client, types, auth service, provider, env, dep'leri temizleyip seçilen backend'e göre stub/scaffold kurar
 
 ---
 
